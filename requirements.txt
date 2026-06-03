@@ -1,0 +1,14 @@
+google-generativeai
+langchain-google-genai
+chromadb
+sentence-transformers
+rank-bm25
+pdfplumber
+fastapi
+uvicorn
+python-dotenv
+ragas
+datasets
+streamlit
+requests
+langgraph

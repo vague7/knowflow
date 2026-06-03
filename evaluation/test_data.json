@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How do I request VPN access?",
+    "ground_truth": "To request VPN access, submit a ticket on the IT Service Portal under 'Network Access'. Select 'VPN — New User' and provide your employee ID and manager's name. Approval typically takes 24 hours. Once approved, download the GlobalProtect VPN client from the internal software catalog."
+  },
+  {
+    "question": "What is the work from home policy?",
+    "ground_truth": "Employees may work from home up to 3 days per week with manager approval. Core in-office days are Tuesday and Thursday. WFH requests should be logged in the HR Portal by the prior Friday. Fully remote arrangements require VP-level approval and a signed remote work agreement."
+  },
+  {
+    "question": "How do I get access to GitHub Enterprise?",
+    "ground_truth": "Request access via the IT Service Portal under 'Application Access' and select 'GitHub Enterprise — Developer'. Your manager must approve the request. Once granted, configure SSH keys by following the guide in Confluence under 'Engineering > SSH Setup'. You will be added to your team's GitHub organization within one business day of approval."
+  },
+  {
+    "question": "How many days of paid leave do employees get?",
+    "ground_truth": "Full-time employees receive 20 days of paid time off (PTO) per calendar year, accrued monthly. Sick leave is separate and provides 12 days annually. Unused PTO can be carried over up to a maximum of 5 days into the next calendar year."
+  },
+  {
+    "question": "What is the code review process for pull requests?",
+    "ground_truth": "All changes must go through a pull request with at least two approved reviews before merging. Reviewers should be assigned from your team, and at least one must be a senior engineer. PR descriptions must include a summary of changes, testing steps, and any related Jira ticket numbers. Reviews should be completed within one business day."
+  }
+]

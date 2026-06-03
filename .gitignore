@@ -1,0 +1,18 @@
+# Uploads directory (runtime file uploads)
+uploads/
+
+# Pickled indices
+*.pkl
+
+# SQLite database
+memory/*.db
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ChromaDB local storage
+chroma_db/
