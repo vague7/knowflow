@@ -14,7 +14,7 @@ from agents.rewriter import rewrite_query
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-clarify_model = genai.GenerativeModel("gemini-2.0-flash")
+clarify_model = genai.GenerativeModel("gemini-3.5-flash")
 
 
 # ── State schema ───────────────────────────────────────────────

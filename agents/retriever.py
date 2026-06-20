@@ -50,7 +50,7 @@ def hybrid_retrieve(query: str, k: int = 10) -> list[dict]:
     # Dense retrieval
     try:
         query_result = genai.embed_content(
-            model="models/text-embedding-004",
+            model="models/gemini-embedding-001",
             content=query,
             task_type="retrieval_query",
         )

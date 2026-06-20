@@ -2,6 +2,9 @@
 
 import os
 import pickle
+import sys
+# Add project root to path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 import chromadb
 import google.generativeai as genai
@@ -45,7 +48,7 @@ def embed_and_store(chunks: list[dict]) -> None:
     for i, chunk in enumerate(chunks):
         try:
             result = genai.embed_content(
-                model="models/text-embedding-004",
+                model="models/gemini-embedding-001",
                 content=chunk["text"],
                 task_type="retrieval_document",
             )
